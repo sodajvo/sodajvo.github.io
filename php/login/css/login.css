@@ -1,0 +1,19 @@
+.bgImage {
+    background-image: url(../../../img/bg_img.png) !important ;
+    background-repeat: repeat;
+    background-position: left top;
+  }
+  
+
+.login{  
+  width: 300px;
+  padding: 50px;
+  margin: 20px;
+
+}
+
+.registrate{  
+  width: 200px;
+  padding: 9px;
+  
+}

@@ -1,0 +1,13 @@
+.bgImage {
+    background-image: url(../../../img/bg_img.png) !important ;
+    background-repeat: repeat;
+    background-position: left top;
+  }
+  
+  #footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+ }
