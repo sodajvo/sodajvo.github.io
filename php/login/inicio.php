@@ -35,7 +35,7 @@ if (!isset($_SESSION['loggedin'])) {
 
   <header class="header">
     <nav class="navbar navbar-expand-lg ">
-      <a class="" href="inicio.html"><img src="../../img/our-coffe.png"></a>
+      <a class="" href="index.html"><img src="../../img/our-coffe.png"></a>
       <div class="collapse navbar-collapse d-flex justify-content-end">
         <ul class="navbar-nav text">
           <li>

@@ -54,12 +54,14 @@ $stmt->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Perfil Usuario</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="loggedin">
     <nav class="navtop">
-        <h1 style="color:white;">Sistema de Login Básico ConfiguroWeb</h1>
+        <h1 style="color:white;">Sistema de Login Básico Configuro Web</h1>
         <a href="inicio.php" style="color:white;">Inicio</a>
         <a href="perfil.php" style="color:white;"><i class="fas fa-user-circle"></i>Información de Usuario</a>
         <a href="cerrar-sesion.php" style="color:white;"><i class="fas fa-sign-out-alt"></i>Cerrar Sesion</a>
@@ -73,12 +75,28 @@ $stmt->close();
             </p>
             <table>
                 <tr>
+                    <td>id:</td>
+                    <td>
+                        <?= $_SESSION['id'] ?>
+                    </td>
+                </tr>
+                <tr>
                     <td>Usuario:</td>
-                    <td><?= $_SESSION['name'] ?></td>
+                    <td>
+                        <?= $_SESSION['name'] ?>
+                    </td>
                 </tr>
                 <tr>
                     <td>Email:</td>
-                    <td><?= $email ?></td>
+                    <td>
+                        <?= $email ?>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Contraseña:</td>
+                    <td>
+                        <?= $_SESSION['password'] ?>
+                    </td>
                 </tr>
             </table>
 
