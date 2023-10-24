@@ -1,0 +1,13 @@
+.bgImage {
+    background-image: url(../../../img/bg_img.png) !important;
+    background-repeat: repeat;
+    background-position: left top;
+}
+
+.signUp{
+    
+    width: 300px;
+    padding: 50px;
+    margin: 20px;
+
+}
